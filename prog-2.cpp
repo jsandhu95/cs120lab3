@@ -2,6 +2,8 @@
 #include <string>
 #include <cassert>
 
+#include namespace std;
+
 class vec
 {
 public:
@@ -41,7 +43,7 @@ void set_names(object* objects, size_t number_objects, const std::string& base_n
 {
     for(size_t i = 0; i < number_objects; i++)
     {
-        objects[i].name = base_name + std::to_string(i);
+        objects[i].name = base_name + to_string(i);
     }
 }
 
