@@ -2,7 +2,7 @@
 #include <string>
 #include <cassert>
 
-#include namespace std;
+using namespace std;
 
 class vec
 {
